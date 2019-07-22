@@ -1,0 +1,544 @@
+{
+    "dashboards": [
+        {
+            "id": 1,
+            "name": "Dashboard 1",
+            "metricsDetails": [
+                {
+                    "id": 1,
+                    "details": "Dummy metric 1 details"
+                },
+                {
+                    "id": 2,
+                    "details": "Dummy metric 2 details"
+                },
+                {
+                    "id": 12,
+                    "details": "Dummy metric 9 details"
+                },
+                {
+                    "id": 13,
+                    "details": "Dummy metric 9 details"
+                },
+                {
+                    "id": 3,
+                    "details": "Dummy metric 3 details"
+                },
+                {
+                    "id": 4,
+                    "details": "Dummy metric 4 details"
+                },
+                {
+                    "id": 10,
+                    "details": "Dummy metric 9 details"
+                },
+                {
+                    "id": 5,
+                    "details": "Dummy metric 5 details"
+                },
+                {
+                    "id": 9,
+                    "details": "Dummy metric 9 details"
+                },
+                {
+                    "id": 11,
+                    "details": "Dummy metric 9 details"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Dashboard 2",
+            "metricsDetails": [
+                {
+                    "id": 1,
+                    "details": "Dummy metric 1 details"
+                },
+                {
+                    "id": 2,
+                    "details": "Dummy metric 2 details"
+                },
+                {
+                    "id": 3,
+                    "details": "Dummy metric 3 details"
+                },
+                {
+                    "id": 4,
+                    "details": "Dummy metric 4 details"
+                },
+                {
+                    "id": 5,
+                    "details": "Dummy metric 5 details"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Dashboard 3",
+            "metricsDetails": [
+                {
+                    "id": 1,
+                    "details": "Dummy metric 1 details"
+                },
+                {
+                    "id": 2,
+                    "details": "Dummy metric 2 details"
+                },
+                {
+                    "id": 3,
+                    "details": "Dummy metric 3 details"
+                },
+                {
+                    "id": 4,
+                    "details": "Dummy metric 4 details"
+                },
+                {
+                    "id": 5,
+                    "details": "Dummy metric 5 details"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Dashboard 4",
+            "metricsDetails": [
+                {
+                    "id": 1,
+                    "details": "Dummy metric 1 details"
+                },
+                {
+                    "id": 2,
+                    "details": "Dummy metric 2 details"
+                },
+                {
+                    "id": 3,
+                    "details": "Dummy metric 3 details"
+                },
+                {
+                    "id": 4,
+                    "details": "Dummy metric 4 details"
+                },
+                {
+                    "id": 5,
+                    "details": "Dummy metric 5 details"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Dashboard 5",
+            "metricsDetails": [
+                {
+                    "id": 1,
+                    "details": "Dummy metric 1 details"
+                },
+                {
+                    "id": 2,
+                    "details": "Dummy metric 2 details"
+                },
+                {
+                    "id": 3,
+                    "details": "Dummy metric 3 details"
+                },
+                {
+                    "id": 4,
+                    "details": "Dummy metric 4 details"
+                },
+                {
+                    "id": 5,
+                    "details": "Dummy metric 5 details"
+                }
+            ]
+        }
+    ],
+    "metrics": [
+        {
+            "id": 1,
+            "name": "Metric 1",
+            "type": "STATUS",
+            "status": "AMBER"
+        },
+        {
+            "id": 9,
+            "name": "Metric 9",
+            "type": "BARCHART",
+            "values": {
+                "labels": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "data": [
+                    10,
+                    15,
+                    12,
+                    10,
+                    15,
+                    7,
+                    18
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "name": "Metric 2",
+            "type": "STATUS",
+            "status": "RED"
+        },
+        {
+            "id": 10,
+            "name": "Metric 10",
+            "type": "PIECHART",
+            "values": {
+                "labels": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "data": [
+                    10,
+                    15,
+                    12,
+                    20,
+                    25,
+                    7,
+                    18
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "name": "Metric 3",
+            "type": "STATUS",
+            "status": "RED"
+        },
+        {
+            "id": 4,
+            "name": "Metric 4",
+            "type": "STATUS",
+            "status": "GREEN"
+        },
+        {
+            "id": 11,
+            "name": "Metric 11",
+            "type": "LINECHART",
+            "values": {
+                "labels": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "data": [
+                    10,
+                    15,
+                    12,
+                    20,
+                    25,
+                    7,
+                    18
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "name": "Metric 5",
+            "type": "STATUS",
+            "status": "AMBER"
+        },
+        {
+            "id": 6,
+            "name": "Metric 6",
+            "type": "STATUS",
+            "status": "RED"
+        },
+        {
+            "id": 7,
+            "name": "Metric 7",
+            "type": "STATUS",
+            "status": "GREEN"
+        },
+        {
+            "id": 8,
+            "name": "Metric 8",
+            "type": "STATUS",
+            "status": "RED"
+        },
+        {
+            "id": 12,
+            "name": "Metric 12",
+            "type": "DOUGHNUT",
+            "values": {
+                "labels": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "data": [
+                    10,
+                    15,
+                    12,
+                    20,
+                    25,
+                    7,
+                    18
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "name": "Metric 13",
+            "type": "HORIZONTALBARCHART",
+            "values": {
+                "labels": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "data": [
+                    10,
+                    15,
+                    12,
+                    20,
+                    25,
+                    7,
+                    18
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "name": "Metric 14",
+            "type": "SPEEDOMETER",
+            "values":{
+                "maxValue":1000,
+                "value":600,
+                "startColor":"GREEN",
+                "endColor":"RED",
+                "segmentColors" : ["GREEN","YELLOW","RED"],
+                "segments":3
+            }
+        },
+        {
+            "id": 15,
+            "name": "Metric 15",
+            "type": "BARCHART",
+            "values": {
+                "labels": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "data": [
+                    10,
+                    15,
+                    12,
+                    10,
+                    15,
+                    7,
+                    18
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "name": "Metric 16",
+            "type": "STATUS",
+            "status": "RED"
+        },
+        {
+            "id": 17,
+            "name": "Metric 17",
+            "type": "PIECHART",
+            "values": {
+                "labels": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "data": [
+                    10,
+                    15,
+                    12,
+                    20,
+                    25,
+                    7,
+                    18
+                ]
+            }
+        },
+        {
+            "id": 18,
+            "name": "Metric 18",
+            "type": "STATUS",
+            "status": "RED"
+        },
+        {
+            "id": 19,
+            "name": "Metric 19",
+            "type": "STATUS",
+            "status": "GREEN"
+        },
+        {
+            "id": 20,
+            "name": "Metric 20",
+            "type": "LINECHART",
+            "values": {
+                "labels": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "data": [
+                    10,
+                    15,
+                    12,
+                    20,
+                    25,
+                    7,
+                    18
+                ]
+            }
+        },
+        {
+            "id": 21,
+            "name": "Metric 21",
+            "type": "STATUS",
+            "status": "AMBER"
+        },
+        {
+            "id": 22,
+            "name": "Metric 22",
+            "type": "STATUS",
+            "status": "RED"
+        },
+        {
+            "id": 23,
+            "name": "Metric 23",
+            "type": "STATUS",
+            "status": "GREEN"
+        },
+        {
+            "id": 24,
+            "name": "Metric 24",
+            "type": "STATUS",
+            "status": "RED"
+        },
+        {
+            "id": 25,
+            "name": "Metric 25",
+            "type": "DOUGHNUT",
+            "values": {
+                "labels": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "data": [
+                    10,
+                    15,
+                    12,
+                    20,
+                    25,
+                    7,
+                    18
+                ]
+            }
+        },
+        {
+            "id": 26,
+            "name": "Metric 26",
+            "type": "HORIZONTALBARCHART",
+            "values": {
+                "labels": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "data": [
+                    10,
+                    15,
+                    12,
+                    20,
+                    25,
+                    7,
+                    18
+                ]
+            }
+        },
+        {
+            "id": 27,
+            "name": "Metric 27",
+            "type": "SPEEDOMETER",
+            "values":{
+                "maxValue":1000,
+                "value":600,
+                "startColor":"GREEN",
+                "endColor":"RED",
+                "segmentColors" : ["GREEN","YELLOW","RED"],
+                "segments":3
+            }
+        }
+    ],
+    "dashboardNames": [
+        {
+            "id": 1,
+            "name": "Dashboard 1"
+        },
+        {
+            "id": 2,
+            "name": "Dashboard 2"
+        },
+        {
+            "id": 3,
+            "name": "Dashboard 3"
+        },
+        {
+            "id": 4,
+            "name": "Dashboard 4"
+        },
+        {
+            "id": 5,
+            "name": "Dashboard 5"
+        }
+    ]
+}
