@@ -18,7 +18,7 @@
     "react-grid-layout": "^0.16.6",
     "react-redux": "^6.0.1",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "redux": "^4.0.1",
     "redux-actions": "^2.6.5",
     "redux-devtools-extension": "^2.13.8",
